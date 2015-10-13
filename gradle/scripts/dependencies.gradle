@@ -1,0 +1,13 @@
+repositories {
+	mavenCentral()
+	maven {
+		name "shadowfacts"
+		url "http://mvn.rx14.co.uk/shadowfacts/"
+	}
+}
+
+dependencies {
+	compile gradleApi()
+
+	compile group: "net.shadowfacts", name: "ShadowLib", version: "1.4.0-build-15"
+}
